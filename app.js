@@ -15,5 +15,10 @@ app.post( '/', function( req, res) {
     res.send(latitude + ',' + longitude);
 })
 
+//For easy testing
+app.get('/', (req, res) => {
+  res.status(200).send('Hello, world!');
+});
+
 app.listen(port);
 console.log('Server started! At http://localhost:' + port);
