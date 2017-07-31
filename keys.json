@@ -1,0 +1,7 @@
+{
+  "mongoHost": "ds129183.mlab.com",
+  "mongoPort": "29183",
+  "mongoDatabase": "gpslocation",
+  "mongoUser": "wichanart",
+  "mongoPass": "testme123",
+}
